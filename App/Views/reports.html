@@ -1,0 +1,11 @@
+﻿<div class="container content-panel">
+    <form  class="form-inline" >
+        <div class="form-group">
+            <label class="control-label">Stock:</label>
+            <select  ng-model="selStock" class="form-control" required="required" ng-options="stock.id as stock.name for stock in stocks " ng-change="stockChange(selStock = (stocks|filter:{id:selStock})[0].id)"></select>
+        </div>
+        </form>
+
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+    <div>Open-High-Low-Close Chart</div>
+</div>

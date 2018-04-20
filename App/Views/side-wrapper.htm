@@ -1,0 +1,21 @@
+﻿<div id="wrapper">
+
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+            <li>
+                <a href="home" ng-class="activeTab=='home'?'active':''" ng-click="markActive('home')"><span class="fa fa-lg pull-left"><i class="fa fa-home fa-1x color-purple"></i></span>Home</a>
+            </li>
+            <li>
+                <a href="stocks" ng-class="activeTab=='stocks'?'active':''" ng-click="markActive('stocks')"> <span class="fa fa-lg pull-left"><i class="fa fa-clipboard fa-1x color-blue"></i></span>Stocks</a>
+            </li>
+            <li>
+                <a href="reports" ng-class="activeTab=='reports'?'active':''" ng-click="markActive('reports')"><span class="fa fa-lg pull-left"><i class="fa fa-bar-chart fa-1x color-red"></i></span>Reports</a>
+            </li>
+            <li>
+                <a href="" ng-class="activeTab=='contactus'?'active':''" ng-click="markActive('contactus')" > <span class="fa fa-lg pull-left"><i class="fa fa-phone fa-1x color-green"></i></span>Contact</a>
+            </li>
+
+        </ul>
+    </div><!-- /#sidebar-wrapper -->
+
+</div>

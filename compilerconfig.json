@@ -1,0 +1,34 @@
+﻿[
+  {
+    "outputFile": "Content/Styles/overwrite.css",
+    "inputFile": "Content/Styles/overwrite.scss"
+  },
+  {
+    "outputFile": "Content/Styles/main.css",
+    "inputFile": "Content/Styles/main.scss"
+  },
+  {
+    "outputFile": "Content/Styles/layout.css",
+    "inputFile": "Content/Styles/layout.scss"
+  },
+  {
+    "outputFile": "Content/Styles/variables.css",
+    "inputFile": "Content/Styles/variables.scss"
+  },
+  {
+    "outputFile": "Content/Styles/_basic.css",
+    "inputFile": "Content/Styles/_basic.scss"
+  },
+  {
+    "outputFile": "Content/Styles/features.css",
+    "inputFile": "Content/Styles/features.scss"
+  },
+  {
+    "outputFile": "Content/Styles/basic.css",
+    "inputFile": "Content/Styles/basic.scss"
+  },
+  {
+    "outputFile": "Content/Styles/overrides.css",
+    "inputFile": "Content/Styles/overrides.scss"
+  }
+]
