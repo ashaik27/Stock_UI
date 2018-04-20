@@ -16,7 +16,7 @@
             google.charts.setOnLoadCallback(drawChart);
         }
     }).error(function (data) {
-        console.log("unexpected error in loading disaggregation filters in roster grid!")
+        console.log("unexpected error in loading StockService!")
     });
     function drawChart() {
 
